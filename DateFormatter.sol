@@ -1,16 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-///  BASE • BASE • BASE • BASE • BASE • BASE • BASE  • BASE • BASE • BASE  • BASE • BASE                                     
-/// /////////////////////////////////////// //\\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-/// ///                                /// //  \\ \\\                                \\\
-/// ///      Behind the Visuals       /// //    \\ \\\                               \\\
-/// ///            • • •             /// //      \\ \\\      BASE • BASE • BASE      \\\
-/// ///    visualreszka.base.eth    /// //        \\ \\\                             \\\
-/// ///                            /// //          \\ \\\                            \\\
-/// ///////////////////////////////// // ART & CODE \\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-///  BASE • BASE • BASE • BASE • BASE • BASE • BASE  • BASE • BASE • BASE  • BASE • BASE
-
 /// @title DateFormatter
 /// @notice A contract for formatting timestamps into human-readable dates in DD Month YYYY format
 
@@ -116,7 +106,18 @@ contract DateFormatter {
         return string(buffer);
     }
 }
-/// ///////////////  ///////////////  ///////////////  ///////////////  ///////////////
-/// ビジュアルの裏側                                               visualreszka.base.eth
-/// \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\
-///  BASE • Base • BASE • BASE • Base • BASE • BASE  • Base • BASE • BASE  • Base • BASE
+/// BASE • BASE • BASE • BASE • BASE • BASE • BASE • BASE • \\\\\\\                              
+/// /////////////////////////////////////// //\\ \\\\\\\\\\\\\\\\\\\
+/// ///                                /// //  \\ \\\             \\\
+/// ///      Behind the Visuals       /// //    \\ \\\ • Code      \\\
+/// ///            • • •             /// //      \\ \\\ • Pixels    \\\
+/// ///    visualreszka.base.eth    /// //        \\ \\\ • Pigments  \\\
+/// ///                            /// //          \\ \\\             \\\
+/// ///////////////////////////////// // ART & CODE \\ \\\\\\\\\\\\\\\\\\\
+///  BASE • BASE • BASE • BASE • BASE • BASE • BASE  • BASE • BASE • BASE •
+/// \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\  \\\\\
+/// ///////////////  ///////////////  ///////////////  ///////////////  /////
+/// ビジュアルの裏側                                        visualreszka.base.eth
+/// \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\  \\\\\\\\
+/// ///////////////  ///////////////  ///////////////  ///////////////  ////////
+///  BASE • Base • BASE • BASE • Base • BASE • BASE  • Base • BASE • BASE  • Base

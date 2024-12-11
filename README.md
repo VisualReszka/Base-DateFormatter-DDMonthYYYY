@@ -1,66 +1,77 @@
-## Foundry
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+# DateFormatter Solidity Contract
 
-Foundry consists of:
+A Solidity utility for converting Unix timestamps into a human-readable `DD Month YYYY` format. Simple and efficient, this contract is designed for seamless integration into your smart contracts.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Features
 
-## Documentation
+- Converts Unix timestamps to `DD Month YYYY`.
+- Compatible with Base Sepolia Testnet and Base Mainnet.
+- Easy integration with existing Solidity projects.
 
-https://book.getfoundry.sh/
+## Deployed Addresses
 
-## Usage
+- **Base Sepolia Testnet**: `0x30A80121F22FBdF236218F54E6c6ad3CBCF9DBa0`
+- **Base Mainnet**: `0x6ACb06deDd7B19B34c128D4757e4f3d642e10D27`
 
-### Build
+## Quick Start
 
-```shell
-$ forge build
+### 1. Import the Contract
+
+Add this line to your Solidity file:
+
+```solidity
+import "./DateFormatter.sol";
 ```
 
-### Test
+### 2. Initialize the Contract
 
-```shell
-$ forge test
+Set up an instance in your constructor:
+
+```solidity
+DateFormatter private formatter;
+
+constructor(address formatterAddress) {
+    formatter = DateFormatter(formatterAddress); // formatterAddress <- Replace with the correct address
+}
 ```
 
-### Format
+### 3. Format a Date
 
-```shell
-$ forge fmt
+Use the `formatDate` function to convert a timestamp:
+
+```solidity
+function getFormattedDate(uint256 timestamp) public view returns (string memory) {
+    return formatter.formatDate(timestamp);
+}
 ```
 
-### Gas Snapshots
+### Example Code
 
-```shell
-$ forge snapshot
+```solidity
+function exampleUsage() public view returns (string memory) {
+    uint256 timestamp = 1733909348; // Example Unix timestamp
+    return formatter.formatDate(timestamp);
+}
 ```
 
-### Anvil
+### Expected Output
 
-```shell
-$ anvil
-```
+- Input: `1733909348`
+- Output: `11 December 2024`
 
-### Deploy
+## Best Practices
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
+- Verify the deployed contract address matches your target network.
+- Test the functionality in a development environment before deploying.
 
-### Cast
+## Support
 
-```shell
-$ cast <subcommand>
-```
+If you'd like to support my work, any small contribution helps:  
+**visualreszka.base.eth**
 
-### Help
+/////////////// /////////////// ///////////////
+ビジュアルの裏側
+/////////////// /////////////// /////////////// 
 
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+BASE • BASE • BASE
