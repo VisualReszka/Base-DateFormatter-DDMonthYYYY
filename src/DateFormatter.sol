@@ -1,14 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
-                                      
-/// /////////////////////////////////////// //\\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-/// ///                                /// //  \\ \\\                              \\\
-/// ///      Behind the Visuals       /// //    \\ \\\               ART           \\\
-/// ///            • • •             /// //      \\ \\\               &            \\\
-/// ///    visualreszka.base.eth    /// //        \\ \\\             CODE          \\\
-/// ///                            /// //          \\ \\\                          \\\
-/// ///////////////////////////////// //            \\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
+///  BASE • Base • BASE • BASE • Base • BASE • BASE  • Base • BASE • BASE  • Base • BASE                                     
+/// /////////////////////////////////////// //\\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+/// ///                                /// //  \\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+/// ///      Behind the Visuals       /// //    \\ \\\   BASE • Base • BASE • BASE   \\\
+/// ///            • • •             /// //      \\ \\\   BASE • Base • BASE • BASE  \\\
+/// ///    visualreszka.base.eth    /// //        \\ \\\ BASE • Base • BASE • BASE   \\\
+/// ///                            /// //          \\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+/// ///////////////////////////////// // ART & CODE \\ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+///  BASE • Base • BASE • BASE • Base • BASE • BASE  • Base • BASE • BASE  • Base • BASE
 
 /// @title DateFormatter
 /// @notice A contract for formatting timestamps into human-readable dates in DD Month YYYY format
@@ -118,3 +119,4 @@ contract DateFormatter {
 /// ///////////////  ///////////////  ///////////////  ///////////////  ///////////////  
 /// ビジュアルの裏側                                               visualreszka.base.eth
 /// \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\  \\\\\\\\\\\\\\\
+///  BASE • Base • BASE • BASE • Base • BASE • BASE  • Base • BASE • BASE  • Base • BASE
