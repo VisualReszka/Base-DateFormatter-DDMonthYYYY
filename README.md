@@ -65,6 +65,14 @@ function exampleUsage() public view returns (string memory) {
 - Verify the deployed contract address matches your target network.
 - Test the functionality in a development environment before deploying.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+This contract was inspired by the [Ethereum DateTime library](https://github.com/pipermerriam/ethereum-datetime). The implementation has been modified and optimized for specific use cases.
+
 ## Support
 
 If you'd like to support my work, any small contribution helps:  
